@@ -21,3 +21,4 @@ we learned how to work with a node.js templating engine, ejs. The minor syntax c
 
 What is next for Microbi? We would like to take it live. With more content and features implemented at a production quality level, this application could go live. Servers cost money, and we think this app can produce more revenue than the cost of the server.
 
+![Alt text](screenshot1.png?raw=true "Optional Title")
