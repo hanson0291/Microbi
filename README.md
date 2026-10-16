@@ -1,24 +1,39 @@
 # Microbi
-A fun and effective way for students to learn Microbiology
--------------------------------------------------------------
 
+**A fun and effective way for students to learn microbiology.**
 
+Microbi is a gamified study app built at a **hackathon in October 2017**. Students earn points for working through reading sections, answering questions about what they read, and winning mini-games.
 
+![Microbi screenshot](screenshot1.png?raw=true "Microbi")
 
-This seemed like a fun and obtainable challenge to compete in.
+> This repository holds the project write-up and a screenshot. The application source isn't included.
 
-Our web application has an authentication system for users to login, and It can easily be compiled to iOS and android to run as a native mobile app.
+## Features
 
-Our interface has a points system to help make it fun to absorb the information. Points can be awarded by the user scrolling through reading sections, answering questions about the reading questions, and by winning mini games.
+- **User accounts:** Users sign in to the web app before they start.
+- **Points system:** Users earn points for:
+  - scrolling through the reading sections
+  - answering comprehension questions about the reading
+  - winning mini-games
+- **Interactive tree of life:** A microbiology taxonomy tree drawn with D3.js.
+- **Mobile-ready:** The web app was designed to be packaged as a native iOS and Android app.
 
-Microbi was built using node.js for the web server, jQuery as the primary JavaScript library to build the interface, and HTML5 and CSS. D3JS, a popular graphing library was also used for our Microbiology tree chart.
+## Built with
 
-The largest challenges we ran into were design decisions about how the user interface should look, which features to implement that would make the app the most interesting, and not having enough time to implement a few more features.
+| Layer | Technology |
+|---|---|
+| Server | Node.js with the [EJS](https://ejs.co/) templating engine |
+| Front end | jQuery, HTML5 and CSS |
+| Visualization | [D3.js](https://d3js.org/) |
 
-We're proud of the reading interface, and a lot of small scripts that do clever things.
+## Hackathon retrospective
 
-we learned how to work with a node.js templating engine, ejs. The minor syntax changes take a little getting used to.
+**Why we built it.** It looked like a fun challenge that we could realistically finish in the time we had.
 
-What is next for Microbi? We would like to take it live. With more content and features implemented at a production quality level, this application could go live. Servers cost money, and we think this app can produce more revenue than the cost of the server.
+**Challenges.** The hardest parts were deciding how the interface should look, picking the features that would make the app most engaging, and running out of time for a few more.
 
-![Alt text](screenshot1.png?raw=true "Optional Title")
+**What we're proud of.** The reading interface, and a lot of small scripts that do clever things.
+
+**What we learned.** How to use EJS. Its syntax differs slightly from plain HTML, which takes some getting used to.
+
+**What's next.** With more content and production-quality features, Microbi could go live. We think it could bring in more revenue than the server would cost.
